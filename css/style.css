@@ -17,6 +17,7 @@
   --text-color: #fff;
   --main-color: #236bfd;
   --color-gold: #f6a93a;
+  --color-gray: #a3a9a9;
 }
 
 *::selection {
@@ -130,7 +131,7 @@ header {
 .home-content p {
   font-size: 1.6rem;
   padding: 15px 0 30px 0;
-  color: #a3a9a9;
+  color: var(--color-gray);
 }
 
 .social-medai a {
@@ -202,7 +203,7 @@ header {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
-  color: #a3a9a9;
+  color: var(--color-gray);
 }
 
 .cards {
@@ -278,4 +279,79 @@ header {
   margin: 25px 0;
 }
 
+/* Skills */
+
+.skills p {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: var(--color-gray);
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.progress {
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: -webkit-linear-gradient(320deg, #ff5f58, #f6a93a);
+  height: 20px;
+  border-radius: 5px;
+}
+
+.w-90 {
+  margin-left: 90%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.w-75 {
+  margin-left: 75%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.w-85 {
+  margin-left: 85%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.w-80 {
+  margin-left: 80%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.w-60 {
+  margin-left: 60%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.w-68 {
+  margin-left: 68%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.skills .row {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 2rem;
+}
 /* BREAKPOINTS */
