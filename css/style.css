@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
   margin: 0;
@@ -82,12 +83,23 @@ header {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
 .logo a span {
   font-size: 25px;
-  letter-spacing: 7px;
+  letter-spacing: 2px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Comic Sans MS", sans-serif !important;
+  font-family: Bebas Neue, cursive !important;
 }
 
 .nav-item {
