@@ -1,13 +1,19 @@
-navitem = document.getElementById("nav-link");
+navitem = document.getElementsByClassName("nav-link");
 btnChek = document.getElementById("btn-check");
+btnCv = document.getElementById("cv");
 
 
 /////////////////////////////////////Hedear////////////////////////////////////////
 
-navitem.addEventListener("click", function() {
-    navitem.addC
+
+
+/////////////////////////////////////Home////////////////////////////////////////
+
+btnCv.addEventListener('click', function () {
+    alert("Not available now")
 })
 
+/////////////////////////////////certificates/////////////////////////////////////
 btnChek.addEventListener("click", function() {
-    window.open("../img/certificatepdf.pdf", "_blank");
-});
+    window.open("../img/certificate-1.jpg", "_blank");
+});                 
